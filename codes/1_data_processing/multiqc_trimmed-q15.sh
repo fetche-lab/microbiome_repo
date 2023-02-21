@@ -10,9 +10,9 @@
 conda activate fetche_LAB1 
 
 #Run multiqc_paired
-cd /users/abaud/flisso/TEST/P50_/rat_covariates/output/fastqc_files/fastqc_trimmed_paired/q15/
+cd /users/abaud/flisso/TEST/P50_/rat_covariates/output/trimmed_testing/fastqc_trimmed/paired/q15/
 multiqc .
 
 #Run multiqc_unpaired
-cd /users/abaud/flisso/TEST/P50_/rat_covariates/output/fastqc_files/fastqc_trimmed_unpaired/q15/
+cd /users/abaud/flisso/TEST/P50_/rat_covariates/output/trimmed_testing/fastqc_trimmed/unpaired/q15/
 multiqc .
